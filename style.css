@@ -1,0 +1,37 @@
+h1, h2, .text{
+    text-align: center;
+    margin: 40px;
+    font-family: "Peralta";
+}
+
+h1 {
+    font-size: 48px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    padding: 30px
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.interface {
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.rock-panel, .paper-panel, .scissors-panel {
+    border-color: red;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+}
+
+.text {
+    font-size: 24px;
+}
