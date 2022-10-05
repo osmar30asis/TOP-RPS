@@ -29,7 +29,7 @@ h2 {
     margin-bottom: 100px;
 }
 
-#rock-panel, #paper-panel, #scissors-panel {
+.panel {
     width: 80px;
     height: 40px;
 }
