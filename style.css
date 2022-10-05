@@ -1,3 +1,7 @@
+body {
+    background-image: url(background.jpg);
+}
+
 h1, h2, .text{
     text-align: center;
     margin: 40px;
@@ -25,11 +29,9 @@ h2 {
     margin-bottom: 100px;
 }
 
-.rock-panel, .paper-panel, .scissors-panel {
-    border-color: red;
-    border-style: solid;
-    width: 30px;
-    height: 30px;
+#rock-panel, #paper-panel, #scissors-panel {
+    width: 80px;
+    height: 40px;
 }
 
 .text {
