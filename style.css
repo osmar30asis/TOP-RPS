@@ -41,12 +41,17 @@ h2 {
 img {
     height: 250px;
     width: 250px;
-    mix-blend-mode: multiply;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
 }
 
 button:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
     border-color: red;
     border-radius: 2px;
     border-style: dashed;
+    border-radius: 50%;
 }
