@@ -2,6 +2,11 @@ body {
     background-image: url(background.jpg);
 }
 
+@font-face {
+    font-family: 'Peralta';
+    src: url(https://fonts.gstatic.com/s/peralta/v17/hYkJPu0-RP_9d3kRKxcrrw.woff2) format('woff2');
+}
+
 h1, h2, .text, footer{
     text-align: center;
     margin: 40px;
